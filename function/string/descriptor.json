@@ -1,0 +1,31 @@
+{
+    "name": "string",
+    "type": "flogo:function",
+    "version": "0.0.1",
+    "title": "string",
+    "description": "string functions",
+    "functions": [{
+            "name": "pad",
+            "description": "Pads a string to a certain length with a certain character.",
+            "example": "pad(\"abc\",5,\"a\")\nReturns\naaabc",
+            "args": [{
+                "name": "string",
+                "type": "string"
+            },
+              {
+                "name": "length",
+                "type": "int"
+              },
+              {
+                "name": "padCharacter",
+                "type": "string"
+              }],
+            "return": {
+                "type": "string"
+            },
+            "display": {
+                "visible": true
+            }
+        }
+    ]
+}
