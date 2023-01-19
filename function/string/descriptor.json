@@ -5,8 +5,8 @@
     "title": "string",
     "description": "string functions",
     "functions": [{
-            "name": "pad",
-            "description": "Pads a string to a certain length with a certain character.",
+            "name": "padLeft",
+            "description": "Pads a string to the left.",
             "example": "pad(\"abc\",5,\"a\")\nReturns\naaabc",
             "args": [{
                 "name": "string",
@@ -26,6 +26,29 @@
             "display": {
                 "visible": true
             }
-        }
+        },
+        {
+          "name": "padRight",
+          "description": "Pads a string to the right.",
+          "example": "pad(\"abc\",5,\"a\")\nReturns\naaabc",
+          "args": [{
+              "name": "string",
+              "type": "string"
+          },
+            {
+              "name": "length",
+              "type": "int"
+            },
+            {
+              "name": "padCharacter",
+              "type": "string"
+            }],
+          "return": {
+              "type": "string"
+          },
+          "display": {
+              "visible": true
+          }
+      }
     ]
 }

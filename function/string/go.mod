@@ -1,4 +1,4 @@
-module github.com/tibco/function/string
+module github.com/praminhos/flogo-components/function/string
 
 go 1.19
 
