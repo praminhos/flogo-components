@@ -30,7 +30,7 @@
         {
           "name": "padRight",
           "description": "Pads a string to the right.",
-          "example": "pad(\"abc\",5,\"a\")\nReturns\naaabc",
+          "example": "pad(\"abc\",5,\"a\")\nReturns\nabcaa",
           "args": [{
               "name": "string",
               "type": "string"
